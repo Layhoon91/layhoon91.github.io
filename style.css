@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  background-image: url("Joker-Film-Review_Horizontal-image-with-no-text_-759-x-597_75.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  font-family: "Shadows Into Light", cursive;
+}
+#header {
+  text-decoration-line: underline;
+  font-style: italic;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+.page-content {
+  margin: 0 auto;
+  text-align: center;
+}
+.background-image {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  padding: 0;
+}
+#joker-message {
+  color: red;
+}
+.button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 8px;
+  background: black;
+  color: red;
+  cursor: pointer;
+  padding: 10px;
+  font-family: "Shadows Into Light", cursive;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-position: right top;
+    background-repeat: repeat-x;
+  }
+}
